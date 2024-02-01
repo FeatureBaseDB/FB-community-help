@@ -21,7 +21,7 @@ The fbsql Command Line Interface tool for Linux and MacOS systems supports:
 
 ## How do I install or upgrade fbsql?
 
-* [Learn How To Install or upgrade fbsql](/docs/tools/fbsql/fbsql-install)
+* [Learn How To Install or upgrade fbsql](https://docs.featurebase.com/docs/tools/fbsql/fbsql-install){:target="_blank"}
 
 ## How do I open and quit the fbsql interface?
 
@@ -30,34 +30,33 @@ The fbsql Command Line Interface tool for Linux and MacOS systems supports:
 | Open fbsql interface | * Open a CLI<br/>* Enter `fbsql` |
 | Quit the fbsql interface | `\q` or `\quit` at the `=#` prompt |
 
-## How do I connect to a FeatureBase database?
+## How do I connect to my FeatureBase Community database?
 
-* [Connect to a FeatureBase cloud database](/docs/tools/fbsql/fbsql-connect-cloud-db)
 * [Connect to a FeatureBase community database](/docs/tools/fbsql/fbsql-connect-com-db)
 
 ## How do I run SQL queries?
 
 Run SQL queries in the fbsql interface or using text files:
 
-* [Learn how to run SQL on fbsql](/docs/tools/fbsql/fbsql-running-sql)
+* [Learn how to run SQL on fbsql](https://docs.featurebase.com/docs/tools/fbsql/fbsql-running-sql){:target="_blank"}
 
 ## How do I format SQL query output?
 
 {% include /fbsql/fbsql-query-formatting-summary.md %}
 
-* [fbsql query result reference](/docs/tools/fbsql/fbsql-query-output-format)
+* [fbsql query result reference](https://docs.featurebase.com/docs/tools/fbsql/fbsql-query-output-format){:target="_blank"}
 
 ## How do I change other output settings?
 
 {% include /fbsql/fbsql-output-flags-summary.md %}
 
-* [fbsql output reference](/docs/tools/fbsql/fbsql-config-output)
+* [fbsql output reference](https://docs.featurebase.com/docs/tools/fbsql/fbsql-config-output){:target="_blank"}
 
 ## How do I import data using fbsql?
 
-* [fbsql loader TOML configuration](/docs/tools/fbsql/fbsql-loader-toml-config)
-* [fbsql loader command](/docs/tools/fbsql/fbsql-loader-command)
+* [fbsql loader TOML configuration](https://docs.featurebase.com/docs/tools/fbsql/fbsql-loader-toml-config){:target="_blank"}
+* [fbsql loader command](https://docs.featurebase.com/docs/tools/fbsql/fbsql-loader-command){:target="_blank"}
 
 ## Further information
 
-* [SQL Guide](/docs/sql-guide/sql-guide-home)
+* [SQL Guide](https://docs.featurebase.com/docs/sql-guide/sql-guide-home){:target="_blank"}
