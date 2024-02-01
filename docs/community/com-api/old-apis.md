@@ -2,7 +2,6 @@
 title: APIs
 layout: default
 parent: Community API
-grand_parent: Community
 ---
 
 # FeatureBase Community APIs

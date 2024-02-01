@@ -2,7 +2,6 @@
 title: FeatureBase keygen
 layout: default
 parent: Community authentication
-grand_parent: Community
 ---
 
 # How do I generate a secret key for FeatureBase authentication?

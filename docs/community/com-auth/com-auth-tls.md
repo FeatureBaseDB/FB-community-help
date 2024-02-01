@@ -2,7 +2,6 @@
 title: TLS authentication
 layout: default
 parent: Community authentication
-grand_parent: Community
 ---
 
 # How do I set up TLS authentication for FeatureBase Community?

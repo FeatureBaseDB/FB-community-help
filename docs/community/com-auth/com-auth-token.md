@@ -2,7 +2,6 @@
 title: TLS user auth tokens
 layout: default
 parent: Community authentication
-grand_parent: Community
 ---
 
 # How do I obtain authorization tokens?

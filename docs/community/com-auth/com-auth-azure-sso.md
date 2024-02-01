@@ -2,7 +2,6 @@
 title: Azure-AD setup
 layout: default
 parent: Community authentication
-grand_parent: Community
 ---
 
 # How do I configure FeatureBase as an Azure Active Directory IDP?

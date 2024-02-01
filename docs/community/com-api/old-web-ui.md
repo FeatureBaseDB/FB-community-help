@@ -2,7 +2,6 @@
 title: Web API
 layout: default
 parent: Community API
-grand_parent: Community
 ---
 
 # Web interface

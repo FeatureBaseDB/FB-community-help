@@ -2,7 +2,6 @@
 title: SQL Queries over HTTP endpoint
 layout: default
 parent: Community API
-grand_parent: Community
 nav_order: 1
 ---
 

@@ -2,7 +2,6 @@
 title: HTTP API
 layout: default
 parent: Community API
-grand_parent: Community
 ---
 
 # HTTP API with Authentication

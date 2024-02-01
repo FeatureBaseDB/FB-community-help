@@ -2,7 +2,6 @@
 title: GRPC API
 layout: default
 parent: Community API
-grand_parent: Community
 ---
 
 # GRPC API
