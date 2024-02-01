@@ -13,7 +13,7 @@ FeatureBase community provides several methods to run queries using FeatureBase 
 
 {% include /com-install/com-install-before-begin.md %}
 * [PQL guide](/docs/pql-guide/pql-home)
-* [SQL guide](/docs/sql-guide/sql-guide-home)
+* [SQL guide](https://docs.featurebase.com/docs/sql-guidesql-guide-home)
 
 ## Running queries
 

@@ -24,9 +24,9 @@ User data mapped to the following data types is converted to bit-sliced bitmaps:
 
 | User data      | FeatureBase data type                                       | Additional information                  |
 | -------------- | ----------------------------------------------------------- | --------------------------------------- |
-| Floating point | [Decimal](/docs/sql-guide/data-types/data-type-decimal)     | A bitmap is added for the decimal point |
-| Signed Integer | [Integer](/docs/sql-guide/data-types/data-type-int)         | A bitmap is added for the sign          |
-| Date and time  | [Timestamp](/docs/sql-guide/data-types/data-type-timestamp) |                                         |
+| Floating point | [Decimal](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-decimal)     | A bitmap is added for the decimal point |
+| Signed Integer | [Integer](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-int)         | A bitmap is added for the sign          |
+| Date and time  | [Timestamp](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-timestamp) |                                         |
 
 ## How does FeatureBase bit-slice integer data?
 

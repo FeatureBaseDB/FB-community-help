@@ -59,4 +59,4 @@ Run SQL queries in the fbsql interface or using text files:
 
 ## Further information
 
-* [SQL Guide](https://docs.featurebase.com/docs/sql-guide/sql-guide-home){:target="_blank"}
+* [SQL Guide](https://docs.featurebase.comhttps://docs.featurebase.com/docs/sql-guidesql-guide-home){:target="_blank"}

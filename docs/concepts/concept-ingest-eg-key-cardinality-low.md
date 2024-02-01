@@ -119,8 +119,8 @@ from myspecies;
 
 ## Further information
 
-* [STRINGSET data type](/docs/sql-guide/data-types/data-type-stringset)
-* [BULK INSERT statement](/docs/sql-guide/statements/statement-insert-bulk)
-* [SETCONTAINS function](/docs/sql-guide/functions/function-setcontains)
-* [SETCONTAINSALL function](/docs/sql-guide/functions/function-setcontainsall)
-* [SETCONTAINSANY function](/docs/sql-guide/functions/function-setcontainsany)
+* [STRINGSET data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-stringset)
+* [BULK INSERT statement](https://docs.featurebase.com/docs/sql-guidestatements/statement-insert-bulk)
+* [SETCONTAINS function](https://docs.featurebase.com/docs/sql-guidefunctions/function-setcontains)
+* [SETCONTAINSALL function](https://docs.featurebase.com/docs/sql-guidefunctions/function-setcontainsall)
+* [SETCONTAINSANY function](https://docs.featurebase.com/docs/sql-guidefunctions/function-setcontainsany)

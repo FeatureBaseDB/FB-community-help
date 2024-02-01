@@ -31,7 +31,7 @@ The SQL ingest tool connects to the source database using your login credentials
 
 Once connected to the source database, SQL queries copy data which is then batched, converted to Roaring Bitmap format then saved to a target FeatureBase index.
 
-* [Learn about FeatureBase SQL](/docs/sql-guide/sql-guide-home)
+* [Learn about FeatureBase SQL](https://docs.featurebase.com/docs/sql-guidesql-guide-home)
 
 ## Mapping data types
 

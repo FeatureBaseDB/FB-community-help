@@ -15,7 +15,7 @@ nav_order: 1
 * Create an Impala Database
 * [Obtain your Impala connection string](https://impala.apache.org/docs/build/html/topics/impala_client.html){:target="_blank"}
 * [Create a FeatureBase Cloud database](/docs/cloud/cloud-databases/cloud-db-manage)
-* [Create target table](/docs/sql-guide/examples/sql-eg-table/sql-eg-table-create-impala-postgres)
+* [Create target table](https://docs.featurebase.com/docs/sql-guideexamples/sql-eg-table/sql-eg-table-create-impala-postgres)
 
 ## Step 1 - Create data source
 

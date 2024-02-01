@@ -18,7 +18,7 @@ I182070945,00619,Larceny,LARCENY ALL OTHERS,D14,808,,2018-09-02 13:00:00,2018,9,
 I182070943,01402,Vandalism,VANDALISM,C11,347,,2018-08-21 00:00:00,2018,8,Tuesday,0,Part Two,HECLA ST,42.30682138,-71.06030035,"(42.30682138, -71.06030035)"
 ```
 
-Quickly looking at the file, you identify “INCIDENT_NUMBER” as the perfect candidate for your key. After jotting down the other columns and their potential types, you also decide “Location” seems unnecessary given “Lat” and “Long” already exist. Now you are off to ingest the data! For most databases, including FeatureBase, this means [creating a table](/docs/sql-guide/statements/statement-table-create) and modeling the columns based on what you see in the file. You’ve come up with the following for FeatureBase:
+Quickly looking at the file, you identify “INCIDENT_NUMBER” as the perfect candidate for your key. After jotting down the other columns and their potential types, you also decide “Location” seems unnecessary given “Lat” and “Long” already exist. Now you are off to ingest the data! For most databases, including FeatureBase, this means [creating a table](https://docs.featurebase.com/docs/sql-guidestatements/statement-table-create) and modeling the columns based on what you see in the file. You’ve come up with the following for FeatureBase:
 
 ```sql
 CREATE TABLE IF NOT EXISTS crime (
@@ -60,7 +60,7 @@ long DECIMAL(8)
 | Long  | DECIMAL |
 -->
 
-FeatureBase’s use of bitmaps and bit slice indexing means you don’t have to worry about manually creating indexes on this table to improve city analysts' query performance. All that’s needed is the schema. This is followed by sending the data to be ingested. For some databases this is a drag and drop GUI, and in others, like FeatureBase, it’s through [SQL statements](/docs/sql-guide/statements/statement-insert-bulk). After you learn about `BULK INSERT` and some expected back and forth  troubleshooting with syntax and the date, you've come up with the following SQL statement:
+FeatureBase’s use of bitmaps and bit slice indexing means you don’t have to worry about manually creating indexes on this table to improve city analysts' query performance. All that’s needed is the schema. This is followed by sending the data to be ingested. For some databases this is a drag and drop GUI, and in others, like FeatureBase, it’s through [SQL statements](https://docs.featurebase.com/docs/sql-guidestatements/statement-insert-bulk). After you learn about `BULK INSERT` and some expected back and forth  troubleshooting with syntax and the date, you've come up with the following SQL statement:
 
 ```sql
 BULK INSERT INTO crime (
@@ -129,9 +129,9 @@ select * from crime where _id = 'I162097077'
 ```
 
 
-You now consider creating a new unique key for each record so there is no data loss, but you find a FeatureBase superpower, [IDSET data type](/docs/sql-guide/data-types/data-type-idset) and [STRINGSET data type](/docs/sql-guide/data-types/data-type-stringset). These datatypes give individual records the ability to store multiple values for a single column.
+You now consider creating a new unique key for each record so there is no data loss, but you find a FeatureBase superpower, [IDSET data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-idset) and [STRINGSET data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-stringset). These datatypes give individual records the ability to store multiple values for a single column.
 
-First, you look into `IDSET` but find you don’t know what the `ID` type is. After looking into the [ID data type](/docs/sql-guide/data-types/data-type-id), you find it is for unsigned integers that are more meaningful to represent as discrete values. Looking at your data model, you’ve made a mistake assigning some columns like “OFFENSE_CODE'' as integers. These codes are discrete values that should be treated categorically, as they will be used in `GROUP BY` and `WHERE` queries and not aggregated on or used in range queries. Others, like “YEAR”, are appropriate because you might use range queries in addition to `GROUP BY` statements. Now understanding `ID`, you see `IDSET` can be used to store multiple `ID` values for a single column. This is exactly what columns like “OFFENSE_CODE'' need. Next, you see `STRINGSET` operates similarly and can be used to store multiple `STRING` values for a single column, such as “OFFENSE_CODE_GROUP”. This type would be appropriate for others like “STREET” if different values were populated with the data, which they are not today. You revisit your data model (updated types below) and now consider if this is a good move:
+First, you look into `IDSET` but find you don’t know what the `ID` type is. After looking into the [ID data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-id), you find it is for unsigned integers that are more meaningful to represent as discrete values. Looking at your data model, you’ve made a mistake assigning some columns like “OFFENSE_CODE'' as integers. These codes are discrete values that should be treated categorically, as they will be used in `GROUP BY` and `WHERE` queries and not aggregated on or used in range queries. Others, like “YEAR”, are appropriate because you might use range queries in addition to `GROUP BY` statements. Now understanding `ID`, you see `IDSET` can be used to store multiple `ID` values for a single column. This is exactly what columns like “OFFENSE_CODE'' need. Next, you see `STRINGSET` operates similarly and can be used to store multiple `STRING` values for a single column, such as “OFFENSE_CODE_GROUP”. This type would be appropriate for others like “STREET” if different values were populated with the data, which they are not today. You revisit your data model (updated types below) and now consider if this is a good move:
 
 ```sql
 CREATE TABLE IF NOT EXISTS crime (

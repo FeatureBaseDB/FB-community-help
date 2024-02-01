@@ -113,7 +113,7 @@ If your environment requires a different installation method, please refer to th
 
 
 ### Querying
-The plugin supports any [SQL](/docs/sql-guide/sql-guide-home) and [PQL](/docs/pql-guide/pql-home) queries that FeatureBase supports. When using PQL, the index must be selected from the respective drop down.
+The plugin supports any [SQL](https://docs.featurebase.com/docs/sql-guidesql-guide-home) and [PQL](/docs/pql-guide/pql-home) queries that FeatureBase supports. When using PQL, the index must be selected from the respective drop down.
 
 ![Query FeatureBase through Grafana](/assets/images/grafana-query.png "Query FeatureBase through Grafana")  
 *Enter your SQL or PQL query*

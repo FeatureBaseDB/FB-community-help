@@ -67,4 +67,4 @@ curl -XPOST localhost:10101/sql -d 'select foo'
 
 ## Further information
 
-* [FeatureBase SQL guide](/docs/sql-guide/sql-guide-home)
+* [FeatureBase SQL guide](https://docs.featurebase.com/docs/sql-guidesql-guide-home)

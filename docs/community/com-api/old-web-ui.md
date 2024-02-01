@@ -16,7 +16,7 @@ When authentication is enabled, TLS must also be enabled. To access the UI, visi
 
 Using the user interface you can check the global status of your FeatureBase cluster.
 
-It contains information about the cluster nodes, data, and has an interface for querying the cluster with both [PQL](/docs/pql-guide/pql-home) and [SQL](/docs/sql-guide/sql-guide-home).
+It contains information about the cluster nodes, data, and has an interface for querying the cluster with both [PQL](/docs/pql-guide/pql-home) and [SQL](https://docs.featurebase.com/docs/sql-guidesql-guide-home).
 
 ## Home
 

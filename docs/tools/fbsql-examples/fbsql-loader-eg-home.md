@@ -19,18 +19,16 @@ When the `loader` process is complete, content from the data source is imported 
 
 ## Before you begin
 
-{% include /fbsql/fbsql-before-begin.md%}
+* [Learn how to install fbsql](/docs/tools/fbsql/fbsql-home)
+* [Learn how to connect to your Community database](/docs/tools/fbsql/fbsql-connect-com-db)
 {% include /fbsql/fb-db-create.md %}
 * [Learn about fbsql TOML configuration](/docs/tools/fbsql/fbsql-loader-toml-config)
-* Choose a connection method for your Cloud database:
-  * User credentials
-  * [Learn how to create a Cloud API key](/docs/cloud/cloud-authentication/cloud-auth-create-key)
 
 ## Step one - create your destination table
 
 Choose one of the following tables:
-* [Create a table for Impala or PostgreSQL data](/docs/sql-guide/examples/sql-eg-table/sql-eg-table-create-impala-postgres)
-* [Create a table for Kafka data](/docs/sql-guide/examples/sql-eg-table/sql-eg-table-create-kafka)
+* [Create a table for Impala or PostgreSQL data](https://docs.featurebase.com/docs/sql-guideexamples/sql-eg-table/sql-eg-table-create-impala-postgres)
+* [Create a table for Kafka data](https://docs.featurebase.com/docs/sql-guideexamples/sql-eg-table/sql-eg-table-create-kafka)
 
 ## Step two - create your data source and TOML configuration file
 

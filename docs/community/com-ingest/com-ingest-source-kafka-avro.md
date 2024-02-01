@@ -181,4 +181,4 @@ The `./molecula-consumer-kafka` and `./molecula-consumer-kafka-delete` CLI comma
 * [Learn about Kafka Consumer](https://kafka.apache.org/22/javadoc/org/apache/kafka/clients/consumer/KafkaConsumer.html)
 * [Learn about Kafka Consumer configs](https://kafka.apache.org/documentation/#consumerconfigs)
 * [Learn about Kafka Consumer API](https://kafka.apache.org/documentation/#consumerapi)
-* [FeatureBase data types](/docs/sql-guide/data-types/data-types-home)
+* [FeatureBase data types](https://docs.featurebase.com/docs/sql-guidedata-types/data-types-home)
