@@ -2,7 +2,7 @@
 title: Getting started with FeatureBase Community
 layout: default
 has_children: true
-nav_order: 13
+nav_order: 2
 has_toc: true
 ---
 

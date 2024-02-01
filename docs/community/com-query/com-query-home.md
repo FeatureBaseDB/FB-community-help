@@ -2,7 +2,7 @@
 title: Query databases
 layout: default
 has_children: true
-nav_order: 9
+nav_order: 6
 ---
 
 # How do I query my FeatureBase Community database?

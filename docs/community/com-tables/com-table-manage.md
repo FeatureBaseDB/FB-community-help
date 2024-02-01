@@ -1,7 +1,7 @@
 ---
 title: Manage tables
 layout: default
-nav_order: 8
+nav_order: 4
 ---
 
 # How do I create and manage tables in FeatureBase Community?
