@@ -1,4 +1,4 @@
-title: Featurebase help
+title: Featurebase Community help
 description: FeatureBase enables data engineers to process and operate on massive, continuously changing datasets in real time.
 theme: just-the-docs
 
@@ -6,7 +6,7 @@ theme: just-the-docs
 # config.yml is heavily customized and will NOT update with changes from the source Just-the-docs repo
 # This means we need to check updates to the repo from time to time (so we can get things like copy button on code blocks, etc)
 
-url: https://github.com/FeatureBaseDB/featurebase-docs
+url: https://github.com/FeatureBaseDB/FB-community-help
 # remote_theme: "pmarsceill/just-the-docs"
 # url: https://just-the-docs.github.io
 
@@ -28,9 +28,11 @@ aux_links_new_tab: true
   # Anchor text and hyperlinks that appear in top of page nav
 aux_links:
   Featurebase home: https://featurebase.com
+
   Cloud Status: https://status.featurebase.com/
   Glossary: /docs/concepts/glossary
   API docs: https://api-docs-featurebase-cloud.redoc.ly/
+  SQL guide: https://docs.featurebase.com/docs/sql-guide/sql-guide-home
   Contact us: https://www.featurebase.com/contact-us
 
 # permalink info found on https://jekyllrb.com/docs/permalinks/
