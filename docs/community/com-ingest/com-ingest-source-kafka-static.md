@@ -2,7 +2,7 @@
 title: Ingest from Kafka static schema
 layout: default
 parent: Import data
-grand_parent: Community
+
 nav_order: 13
 ---
 

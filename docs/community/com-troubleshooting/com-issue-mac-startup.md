@@ -2,7 +2,7 @@
 title: MacOS startup issue
 layout: default
 parent: Community troubleshooting
-grand_parent: Community
+
 ---
 
 # Issue: FeatureBase Community won't startup on Mac

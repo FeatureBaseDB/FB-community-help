@@ -2,7 +2,7 @@
 title: Mutex ingest slow
 layout: default
 parent: Community troubleshooting
-grand_parent: Community
+
 ---
 
 # Issue - ingest process becomes slow when ingesting mutex fields

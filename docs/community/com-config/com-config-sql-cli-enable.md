@@ -2,7 +2,6 @@
 title: FeatureBase SQL CLI
 layout: default
 parent: Community configuration
-grand_parent: Community
 ---
 
 # FeatureBase SQL Command Line Interface (CLI)

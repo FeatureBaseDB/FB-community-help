@@ -17,7 +17,7 @@ Install FeatureBase Community in a Windows environment by setting up:
 
 ## Before you begin
 
-* [Learn about FeatureBase Community](/docs/community/com-home)
+* [Learn about FeatureBase Community](index)
 
 ## Set up a Virtual Machine
 

@@ -2,8 +2,6 @@
 title: Backup FeatureBase
 layout: default
 parent: Community backup and restore
-grand_parent: Community
-
 ---
 
 # How do I backup my FeatureBase Community installation?

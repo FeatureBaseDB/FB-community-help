@@ -1,7 +1,6 @@
 ---
 title: Setup FeatureBase service
 layout: default
-parent: Community
 nav_order: 4
 ---
 

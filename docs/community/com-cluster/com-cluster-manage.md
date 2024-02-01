@@ -1,7 +1,6 @@
 ---
 title: Community cluster configuration
 layout: default
-parent: Community
 has_children: true
 nav_order: 12
 ---

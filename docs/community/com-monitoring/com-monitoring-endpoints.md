@@ -2,7 +2,7 @@
 title: FeatureBase HTTP endpoints
 layout: default
 parent: Community monitoring
-grand_parent: Community
+
 nav_order: 3
 ---
 

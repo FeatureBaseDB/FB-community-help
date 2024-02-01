@@ -1,1 +1,1 @@
-* [Install FeatureBase Community](/docs/community/com-home)
+* [Install FeatureBase Community](index)

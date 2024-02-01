@@ -2,7 +2,7 @@
 title: Setup Datadog monitoring
 layout: default
 parent: Community monitoring
-grand_parent: Community
+
 nav_order: 5
 ---
 

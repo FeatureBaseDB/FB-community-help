@@ -2,7 +2,6 @@
 title: Max-map-count
 layout: default
 parent: Community configuration
-grand_parent: Community
 ---
 
 # `max-map-count` reference

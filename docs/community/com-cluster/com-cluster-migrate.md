@@ -2,7 +2,6 @@
 title: Migrate to a new cluster
 layout: default
 parent: Community cluster configuration
-grand_parent: Community
 nav_order: 3
 ---
 # How do I migrate data to a new FeatureBase cluster?

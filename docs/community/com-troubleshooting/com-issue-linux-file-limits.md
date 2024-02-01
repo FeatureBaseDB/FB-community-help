@@ -2,7 +2,7 @@
 title: Linux file limits
 layout: default
 parent: Community troubleshooting
-grand_parent: Community
+
 ---
 
 # Issue - Linux file limits

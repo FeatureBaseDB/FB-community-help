@@ -2,7 +2,7 @@
 title: Kafka delete ingest consumer
 layout: default
 parent: Import data
-grand_parent: Community
+
 nav_order: 11
 ---
 

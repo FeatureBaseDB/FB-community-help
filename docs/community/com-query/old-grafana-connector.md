@@ -2,7 +2,6 @@
 title: Grafana connector
 layout: default
 parent: Query databases
-grand_parent: Community
 nav_order: 2
 ---
 

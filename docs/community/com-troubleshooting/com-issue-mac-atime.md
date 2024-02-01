@@ -2,7 +2,7 @@
 title: MacOS atime issues
 layout: default
 parent: Community troubleshooting
-grand_parent: Community
+
 ---
 
 # Issue - FeatureBase atime issue on MacOS

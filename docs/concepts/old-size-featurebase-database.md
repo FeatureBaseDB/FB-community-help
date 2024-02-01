@@ -10,7 +10,7 @@ nav-order: 10
 
 ## Before you start
 
-* [Learn how to install FeatureBase Community](/docs/community/com-home)
+* [Learn how to install FeatureBase Community](index)
 
 ## Determining Hardware Requirements
 

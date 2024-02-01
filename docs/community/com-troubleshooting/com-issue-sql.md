@@ -2,7 +2,7 @@
 title: SQL over HTTPS fails
 layout: default
 parent: Community troubleshooting
-grand_parent: Community
+
 ---
 
 # Issue - Running SQL over HTTPS fails

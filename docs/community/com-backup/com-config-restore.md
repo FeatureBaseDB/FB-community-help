@@ -2,7 +2,6 @@
 title: Restore FeatureBase
 layout: default
 parent: Community backup and restore
-grand_parent: Community
 ---
 
 # How do I restore from a backup?
@@ -22,11 +21,11 @@ Restoring should **only** be executed against an empty cluster. Data loss and/or
 
 ### restore
 
-The `restore` command should be used when your source is a directory (an uncompressed backup outputted from the `backup` command) and is located on local disk. This command allows for parallelization of restoring rbf files, so it can complete faster than `restoretar`. 
+The `restore` command should be used when your source is a directory (an uncompressed backup outputted from the `backup` command) and is located on local disk. This command allows for parallelization of restoring rbf files, so it can complete faster than `restoretar`.
 
 ### restoretar
 
-The `restoretar` command should be used when your source is a tar file (an tar compressed backup outputted from the `backuptar` command). This command can accept a streamed input if the source is not on local disk. This command will generally take longer than `restore` as it restores each file sequentially. 
+The `restoretar` command should be used when your source is a tar file (an tar compressed backup outputted from the `backuptar` command). This command can accept a streamed input if the source is not on local disk. This command will generally take longer than `restore` as it restores each file sequentially.
 
 ## Syntax
 

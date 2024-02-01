@@ -2,7 +2,6 @@
 title: Setup FeatureBase as a systemd service
 layout: default
 parent: Community configuration
-grand_parent: Community
 ---
 
 # How do I setup FeatureBase Community to automatically start?

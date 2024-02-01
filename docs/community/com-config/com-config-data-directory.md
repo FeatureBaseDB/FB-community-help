@@ -2,7 +2,6 @@
 title: Data Directory
 layout: default
 parent: Community configuration
-grand_parent: Community
 ---
 
 # FeatureBase Data Directory reference

@@ -13,8 +13,8 @@ Install FeatureBase Community in a Linux environment such as Ubuntu.
 
 ## Before you begin
 
-* [Learn about FeatureBase Community](/docs/community/com-home)
-{% include /common/common-install-before-begin.md %}
+* [Learn about FeatureBase Community](index)
+* [Learn how to install FeatureBase Community](/docs/community/com-getstart/com-getstart-home)
 
 ## Step 1 - Establish the correct release to install
 

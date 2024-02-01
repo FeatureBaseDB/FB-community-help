@@ -1,7 +1,6 @@
 ---
 title: Community troubleshooting
 layout: default
-parent: Community
 has_children: true
 nav_order: 12
 has_toc: true

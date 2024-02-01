@@ -2,7 +2,7 @@
 title: Linux memory limits
 layout: default
 parent: Community troubleshooting
-grand_parent: Community
+
 ---
 
 # Issue - Linux memory limits

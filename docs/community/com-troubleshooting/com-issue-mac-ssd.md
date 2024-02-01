@@ -2,7 +2,7 @@
 title: MacOS SSD memory issues
 layout: default
 parent: Community troubleshooting
-grand_parent: Community
+
 ---
 
 # Issue - memory blocks not reclaimed on MacOS SSD drives

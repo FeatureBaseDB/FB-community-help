@@ -13,7 +13,7 @@ has_toc: false
 
 ## Before you begin
 
-* [Learn how to install FeatureBase Community](/docs/community/com-home/#install-featurebase-community)
+* [Learn how to install FeatureBase Community](index/#install-featurebase-community)
 
 ## How do I install FeatureBase Python client library?
 

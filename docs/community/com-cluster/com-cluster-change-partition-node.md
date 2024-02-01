@@ -2,7 +2,6 @@
 title: Safely change parameters
 layout: default
 parent: Community cluster configuration
-grand_parent: Community
 nav_order: 4
 ---
 

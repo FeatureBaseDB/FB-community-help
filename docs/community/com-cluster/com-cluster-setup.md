@@ -2,7 +2,6 @@
 title: Create a cluster
 layout: default
 parent: Community cluster configuration
-grand_parent: Community
 nav_order: 1
 ---
 # How do I create a FeatureBase cluster?
@@ -14,7 +13,7 @@ FeatureBase Clusters are setup using the `featurebase.conf` TOML configuration f
 
 ## Before you begin
 
-* [Install FeatureBase on multiple systems](/docs/community/com-home)
+* [Install FeatureBase on multiple systems](index)
 * [Learn about etcd cluster members](https://etcd.io/docs/v3.3/faq/#why-an-odd-number-of-cluster-members){:target="_blank"}
 * Edit cluster parameters in `*/featurebase/opt/featurebase.conf`
 

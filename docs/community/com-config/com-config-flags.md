@@ -2,7 +2,6 @@
 title: Configuration flags
 layout: default
 parent: Community configuration
-grand_parent: Community
 ---
 
 # FeatureBase community Command Line Interface (CLI) configuration flags

@@ -1,7 +1,6 @@
 ---
 title: Manage tables
 layout: default
-parent: Community
 nav_order: 8
 ---
 

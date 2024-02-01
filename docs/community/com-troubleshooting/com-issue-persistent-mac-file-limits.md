@@ -2,7 +2,7 @@
 title: MacOS file limits
 layout: default
 parent: Community troubleshooting
-grand_parent: Community
+
 ---
 
 # Issue - MacOS file limits

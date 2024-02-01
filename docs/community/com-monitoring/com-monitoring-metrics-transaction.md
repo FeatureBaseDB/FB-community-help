@@ -2,7 +2,7 @@
 title: Transaction Metrics
 layout: default
 parent: Community monitoring
-grand_parent: Community
+
 nav_order: 13
 ---
 

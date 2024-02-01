@@ -2,7 +2,6 @@
 title: Managing services
 layout: default
 parent: Community configuration
-grand_parent: Community
 ---
 
 # How do I manage the FeatureBase service?

@@ -2,7 +2,6 @@
 title: Max-file-count
 layout: default
 parent: Community configuration
-grand_parent: Community
 ---
 
 # `max-file-count` reference
