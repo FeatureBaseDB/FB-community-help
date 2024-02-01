@@ -1,0 +1,24 @@
+### Kafka delete values Avro schema definition
+
+```
+{
+    "namespace": "example.test",
+    "type": "record",
+    "name": "delete_value_schema",
+    "doc": "All supported avro types and property variations",
+    "delete": "values",
+    "fields": [
+        {"name": "_id", "type": "string"},
+        {"name": "stringset_string", "type": ["string", "null"]},
+        {"name": "string_string", "type": ["string", "null"]},
+        {"name": "stringset_stringarray", "type": [{"type": "array", "items": "string"}, "null"]},
+        {"name": "idset_int", "type": ["int", "null"]},
+        {"name": "id_int", "type": ["int", "null"]},
+        {"name": "idset_intarray", "type": [{"type": "array", "items": "int"}, "null"]},
+        {"name": "int_int", "type": "boolean"},
+        {"name": "decimal_double", "type": "boolean"},
+        {"name": "bools", "type": [{"type": "array", "items": "string"}, "null"]},
+        {"name": "timestamp_bytes_int", "type": "boolean"}
+    ]
+}
+```

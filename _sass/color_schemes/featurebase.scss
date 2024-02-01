@@ -1,0 +1,27 @@
+// Typography
+$body-font-family: system-ui, -apple-system, blinkmacsystemfont, "industry",
+  roboto, sans-serif !default;
+$mono-font-family: "SFMono-Regular", menlo, consolas, monospace !default;
+$root-font-size: 16px !default; // Base font-size for rems
+$body-line-height: 1.4 !default;
+$content-line-height: 1.6 !default;
+$body-heading-line-height: 1.25 !default;
+
+//colors
+
+$green-000: #10c9c3 !default;
+$red-000: #e65348 !default;
+$purple-000: #291c6a !default;
+
+$link-color: $purple-000;
+
+// Code
+$code-background-color: #F7F7FB;
+
+// Syntax highlighting with dark purple text
+// makes code block legible in table headings
+
+.language-plaintext, .highlighter-rouge {
+ color: #221051
+
+}
