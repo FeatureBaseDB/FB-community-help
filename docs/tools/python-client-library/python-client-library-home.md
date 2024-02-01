@@ -13,23 +13,20 @@ has_toc: false
 
 ## Before you begin
 
-* [Learn how to create a FeatureBase Cloud account](/docs/cloud/cloud-signup), or
 * [Learn how to install FeatureBase Community](/docs/community/com-home/#install-featurebase-community)
 
 ## How do I install FeatureBase Python client library?
 
-* [Learn how to install python client library](/docs/tools/python-client-library/python-client-install)
+* [Learn how to install python client library](https://docs.featurebase.com/docs/tools/python-client-library/python-client-install){:target="_blank"}
 
 ## How do I connect to my database?
 
-* Connect to the database using:
-  * [FeatureBase Cloud connection classes](/docs/tools/python-client-library/python-client-connect-cloud), OR
   * [FeatureBase Community connection classes](/docs/tools/python-client-library/python-client-connect-community)
 
 ## How do I query my database?
 
-* [Learn how to run SQL queries against your database](/docs/tools/python-client-library/python-client-query)
+* [Learn how to run SQL queries against your database](https://docs.featurebase.com/docs/tools/python-client-library/python-client-query){:target="_blank"}
 
 ## Examples
 
-* [Python Client library examples](/docs/tools/python-client-library/python-client-example)
+* [Python Client library examples](https://docs.featurebase.com/docs/tools/python-client-library/python-client-example){:target="_blank"}
