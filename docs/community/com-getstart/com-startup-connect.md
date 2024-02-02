@@ -1,7 +1,7 @@
 ---
 title: Startup & connect
 layout: default
-parent: Community
+parent: Getting started
 nav_order: 4
 ---
 

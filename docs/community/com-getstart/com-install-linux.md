@@ -1,7 +1,7 @@
 ---
 title: Install on Linux
 layout: default
-parent: Community
+parent: Getting started
 nav_order: 1
 ---
 

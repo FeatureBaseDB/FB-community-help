@@ -1,7 +1,7 @@
 ---
 title: Install on Windows
 layout: default
-parent: Community
+parent: Getting started
 has_children: false
 nav_order: 3
 ---

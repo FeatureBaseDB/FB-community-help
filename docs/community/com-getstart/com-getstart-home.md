@@ -1,5 +1,5 @@
 ---
-title: Getting started with FeatureBase Community
+title: Getting started
 layout: default
 has_children: true
 nav_order: 2

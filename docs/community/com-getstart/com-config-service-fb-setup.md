@@ -1,7 +1,8 @@
 ---
 title: Setup FeatureBase service
 layout: default
-nav_order: 4
+parent: Getting started
+nav_order: 5
 ---
 
 # How do I setup a FeatureBase `systemd` service?
