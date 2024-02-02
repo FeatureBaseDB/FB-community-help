@@ -28,11 +28,10 @@ aux_links_new_tab: true
   # Anchor text and hyperlinks that appear in top of page nav
 aux_links:
   Featurebase home: https://featurebase.com
-
-  Cloud Status: https://status.featurebase.com/
   Glossary: /docs/concepts/glossary
   API docs: https://api-docs-featurebase-cloud.redoc.ly/
   SQL guide: https://docs.featurebase.comhttps://docs.featurebase.com/docs/sql-guidesql-guide-home
+  Cloud Status: https://status.featurebase.com/
   Contact us: https://www.featurebase.com/contact-us
 
 # permalink info found on https://jekyllrb.com/docs/permalinks/
