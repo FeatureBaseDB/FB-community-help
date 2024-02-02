@@ -2,7 +2,7 @@
 title: Community cluster configuration
 layout: default
 has_children: true
-nav_order: 12
+nav_order: 20
 ---
 # How do I manage a FeatureBase Community cluster?
 
