@@ -2,7 +2,7 @@
 title: Community configuration
 layout: default
 has_children: true
-nav_order: 9
+nav_order: 10
 has_toc: true
 ---
 
