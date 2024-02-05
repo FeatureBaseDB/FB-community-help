@@ -84,4 +84,4 @@ source-type = "timestamp"
 
 ## Further information
 * [Learn about fbsql](/docs/tools/fbsql/fbsql-home)
-* [Learn how to install fbsql](/docs/tools/fbsql/fbsql-install)
+* [Learn how to install fbsql](https://docs.featurebase.com/docs/tools/fbsql/fbsql-install)

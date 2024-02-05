@@ -20,9 +20,9 @@ When the `loader` process is complete, content from the data source is imported 
 ## Before you begin
 
 * [Create a FeatureBase Community database](/docs/community/com-db/com-db-manage)
-* [Learn how to install fbsql](/docs/tools/fbsql/fbsql-home)
+* [Learn how to install fbsql](https://docs.featurebase.com/docs/tools/fbsql/fbsql-home)
 * [Learn how to connect to your Community database](/docs/tools/fbsql/fbsql-connect-com-db)
-* [Learn about fbsql TOML configuration](/docs/tools/fbsql/fbsql-loader-toml-config)
+* [Learn about fbsql TOML configuration](https://docs.featurebase.com/docs/tools/fbsql/fbsql-loader-toml-config)
 
 ## Step one - create your destination table
 

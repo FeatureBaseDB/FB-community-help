@@ -16,13 +16,10 @@ This example demonstrates how to run the `loader` command:
 
 {% include /fbsql/fbsql-before-begin.md%}
 * [Create a FeatureBase Community database](/docs/community/com-db/com-db-manage)
-* [fbsql loader syntax](/docs/tools/fbsql/fbsql-loader-command)
+* [fbsql loader syntax](https://docs.featurebase.com/docs/tools/fbsql/fbsql-loader-command)
 * [FBSQL loader examples](/docs/tools/fbsql-examples/fbsql-loader-eg-home)
-* Choose a connection method for your Cloud database:
-  * User credentials
-  * [Create a Cloud API key](/docs/cloud/cloud-authentication/cloud-auth-create-key)
 
-## Step 1 - connect to your Cloud database
+## Step 1 - connect to your database
 
 * Open a terminal then substitute your connection details in either of the following commands:
 
