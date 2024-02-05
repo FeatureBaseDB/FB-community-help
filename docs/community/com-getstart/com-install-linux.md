@@ -34,4 +34,4 @@ Install FeatureBase Community in a Linux environment such as Ubuntu.
 
 You can choose to:
 * [Startup and connect to FeatureBase using the CLI](/docs/community/com-getstart/com-startup-connect)
-* [Setup a `systemd` service to automatically Run FeatureBase](/docs/community/com-config/com-config-service-fb-setup)
+* [Setup a `systemd` service to automatically Run FeatureBase](/docs/community/com-getstart/com-config-service-fb-setup)

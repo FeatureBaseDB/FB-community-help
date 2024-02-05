@@ -14,7 +14,7 @@ These instructions do not apply when [manually starting FeatureBase from the CLI
 ## Before you begin
 
 {% include /com-install/com-install-before-begin.md %}
-* [Setup a featurebase `systemd` service](/docs/community/com-config/com-config-service-fb-setup)
+* [Setup a featurebase `systemd` service](/docs/community/com-getstart/com-config-service-fb-setup)
 * Obtain `sudo` credentials for the system
 
 ## Manage FeatureBase service

@@ -10,7 +10,7 @@ nav_order: 4
 These instructions explain how to run FeatureBase Community after you’ve installed on the target system.
 
 {: .note}
-You can also [Setup a systemd service for FeatureBase Community](/docs/community/com-config/com-config-service-fb-setup)
+You can also [Setup a systemd service for FeatureBase Community](/docs/community/com-getstart/com-config-service-fb-setup)
 
 {% include /page-toc.md %}
 
