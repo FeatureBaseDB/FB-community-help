@@ -7,7 +7,7 @@ parent: Community troubleshooting
 
 # Issue: FeatureBase Community won't startup on Mac
 
-[Startup and connect to FeatureBase Community](/docs/community/com-startup-connect) fails on MacOS.
+[Startup and connect to FeatureBase Community](/docs/community/com-getstart/com-startup-connect) fails on MacOS.
 
 ## Probable cause
 

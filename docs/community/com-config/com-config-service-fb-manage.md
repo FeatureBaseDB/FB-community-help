@@ -9,7 +9,7 @@ parent: Community configuration
 You can start, stop and check the status of the `featurebase.service` using `systemctl` commands.
 
 {: .important}
-These instructions do not apply when [manually starting FeatureBase from the CLI](/docs/community/com-startup-connect)
+These instructions do not apply when [manually starting FeatureBase from the CLI](/docs/community/com-getstart/com-startup-connect)
 
 ## Before you begin
 

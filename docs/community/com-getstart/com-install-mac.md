@@ -37,4 +37,4 @@ Follow these instructions to install FeatureBase on a macOS environment.
 
 ## Next step
 
-* [Startup and connect to FeatureBase](/docs/community/com-startup-connect)
+* [Startup and connect to FeatureBase](/docs/community/com-getstart/com-startup-connect)
