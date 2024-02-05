@@ -51,7 +51,7 @@ nav_order: 1
 
 | Term | Context | Additional information |
 |---|---|---|
-| Database | FeatureBase database | Dedicated resources which contain tables and data. [Manage Cloud databases](/docs/cloud/cloud-databases/cloud-db-manage) |
+| Database | FeatureBase database | Dedicated resources which contain tables and data. |
 | Data source | Source of data imported to FeatureBase | FeatureBase imports data from external data sources via HTTPS, Kafka, SQL or CSV ingest processing |
 | Data types | Table columns | [Data types and constraints](https://docs.featurebase.com/docs/sql-guide/data/-types/data-types-home) |
 | DELETE | PQL query | [PQL DELETE write query](/docs/pql-guide/pql-write-delete) |

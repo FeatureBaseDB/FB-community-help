@@ -13,7 +13,6 @@ nav_order: 2
 ## Before you begin
 
 * [Learn about Apache Kafka Confluent Consumer](https://docs.confluent.io/platform/current/clients/consumer.html){:target="_blank"}
-* [Create a FeatureBase Cloud database](/docs/cloud/cloud-databases/cloud-db-manage)
 * [Create target table](https://docs.featurebase.com/docs/sql-guide/examples/sql-eg-table/sql-eg-table-create-impala-postgres)
 
 ## Step 1 - Create data source
