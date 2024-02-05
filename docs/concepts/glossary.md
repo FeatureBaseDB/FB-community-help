@@ -25,7 +25,6 @@ nav_order: 1
 | Anti-entropy | FeatureBase Community cluster | {% include /concepts/concept-anti-entropy.md %} |
 | APPLY | PQL query | [PQL APPLY read query](/docs/pql-guide/pql-read-apply) |
 | ARROW | PQL query | [PQL ARROW read query](/docs/pql-guide/pql-read-arrow) |
-| Authentication | FeatureBase Cloud | [Manage cloud users](/docs/cloud/cloud-users/cloud-users-manage) |
 | Authentication | FeatureBase Community | [Community authentication](/docs/community/com-auth/com-auth-manage) |
 
 ## B
@@ -138,7 +137,6 @@ nav_order: 1
 | Term | Context | Additional information |
 |---|---|---|
 | Options | PQL Options query | [PQL OPTIONS](/docs/pql-guide/pql-options) |
-| Organization | FeatureBase Cloud | [FeatureBase Organization](/docs/cloud/cloud-org/cloud-org-manage) |
 
 ## P
 
