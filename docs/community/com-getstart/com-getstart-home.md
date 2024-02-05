@@ -43,5 +43,5 @@ You can startup FeatureBase Community in two ways:
 
 * [Learn about the FeatureBase Community database](/docs/community/com-db/com-db-manage)
 * [Learn how to create tables](/docs/community/com-tables/com-table-manage)
-* [Learn how to ingest data to FeatureBase Community](/docs/community/com-ingest-manage)
+* [Learn how to ingest data to FeatureBase Community](/docs/community/com-ingest/com-ingest-manage)
 * [Learn how to query your data](/docs/community/com-query/com-query-home)
