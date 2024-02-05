@@ -17,7 +17,7 @@ The fbsql Command Line Interface tool for Linux and MacOS systems supports:
 ## Before you begin
 
 * [Learn about "docopt" notation standards used in this guide](http://docopt.org/){:target="_blank"}
-{% include /fbsql/fb-db-create.md %}
+* [Create a FeatureBase Community database](/docs/community/com-db/com-db-manage)
 
 ## How do I install or upgrade fbsql?
 

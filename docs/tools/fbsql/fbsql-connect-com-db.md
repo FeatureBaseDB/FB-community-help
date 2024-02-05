@@ -13,7 +13,7 @@ Connect to a FeatureBase Community database with fbsql.
 ## Before you begin
 
 {% include /fbsql/fbsql-before-begin.md%}
-{% include /fbsql/fb-db-create.md %}
+* [Create a FeatureBase Community database](/docs/community/com-db/com-db-manage)
 {% include /fbsql/fbsql-help-quit.md %}
 
 ## Syntax
@@ -51,7 +51,7 @@ fbsql automatically connects to a local instance of FeatureBase Community
 
 ### Load data from data source
 
-* [Learn how to use fbsql to load data from an external data source](/docs/tools/fbsql/fbsql-loader-toml-config)
+* [Learn how to use fbsql to load data from an external data source](https://docs.featurebase.com/docs/tools/fbsql/fbsql-loader-toml-config)
 
 ## Additional information
 
@@ -81,4 +81,4 @@ fbsql --config=local.toml
 
 ## Next step
 
-* [Specify a database to run SQL against](/docs/tools/fbsql/fbsql-running-sql)
+* [Specify a database to run SQL against](https://docs.featurebase.com/docs/tools/fbsql/fbsql-running-sql)

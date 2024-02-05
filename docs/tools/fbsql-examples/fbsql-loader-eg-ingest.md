@@ -15,7 +15,7 @@ This example demonstrates how to run the `loader` command:
 ## Before you begin
 
 {% include /fbsql/fbsql-before-begin.md%}
-{% include /fbsql/fb-db-create.md %}
+* [Create a FeatureBase Community database](/docs/community/com-db/com-db-manage)
 * [fbsql loader syntax](/docs/tools/fbsql/fbsql-loader-command)
 * [FBSQL loader examples](/docs/tools/fbsql-examples/fbsql-loader-eg-home)
 * Choose a connection method for your Cloud database:
