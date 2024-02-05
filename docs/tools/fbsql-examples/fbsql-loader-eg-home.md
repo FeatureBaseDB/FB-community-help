@@ -19,16 +19,16 @@ When the `loader` process is complete, content from the data source is imported 
 
 ## Before you begin
 
-* [Learn how to install fbsql](/docs/tools/fbsql/fbsql-home)
+* [Create a FeatureBase Community database](/docs/community/com-db/com-db-manage)
+* [Learn how to install fbsql](https://docs.featurebase.com/docs/tools/fbsql/fbsql-home)
 * [Learn how to connect to your Community database](/docs/tools/fbsql/fbsql-connect-com-db)
-{% include /fbsql/fb-db-create.md %}
-* [Learn about fbsql TOML configuration](/docs/tools/fbsql/fbsql-loader-toml-config)
+* [Learn about fbsql TOML configuration](https://docs.featurebase.com/docs/tools/fbsql/fbsql-loader-toml-config)
 
 ## Step one - create your destination table
 
 Choose one of the following tables:
-* [Create a table for Impala or PostgreSQL data](https://docs.featurebase.com/docs/sql-guideexamples/sql-eg-table/sql-eg-table-create-impala-postgres)
-* [Create a table for Kafka data](https://docs.featurebase.com/docs/sql-guideexamples/sql-eg-table/sql-eg-table-create-kafka)
+* [Create a table for Impala or PostgreSQL data](https://docs.featurebase.com/docs/sql-guide/examples/sql-eg-table/sql-eg-table-create-impala-postgres)
+* [Create a table for Kafka data](https://docs.featurebase.com/docs/sql-guide/examples/sql-eg-table/sql-eg-table-create-kafka)
 
 ## Step two - create your data source and TOML configuration file
 
@@ -39,10 +39,8 @@ Create one of the following data sources and TOML files:
 
 ## Step three - run fbsql loader
 
-* [Run fbsql loader with your TOML configuration file]( /docs/tools/fbsql-examples/fbsql-loader-eg-ingest)
+* [Run fbsql loader with your TOML configuration file] /docs/tools/fbsql-examples/fbsql-loader-eg-ingest)
 
-## Step four - query your data
+## Next step
 
-* [Query Impala data]
-* [Query PostgreSQL data]
-* [Query Kafka data]
+* [Run SQL queries on your data](https://docs.featurebase.com/docs/sql-guide/statements/statement-select)

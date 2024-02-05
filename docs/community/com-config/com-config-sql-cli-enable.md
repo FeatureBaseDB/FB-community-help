@@ -12,7 +12,7 @@ The SQL CLI allows you to execute SQL statements:
 
 ## Before you begin
 
-* [Start the FeatureBase Community server](/docs/community/com-startup-connect)
+* [Start the FeatureBase Community server](/docs/community/com-getstart/com-startup-connect)
 * CD to the `*/featurebase/opt` directory
 
 ## Start the FeatureBase SQL CLI

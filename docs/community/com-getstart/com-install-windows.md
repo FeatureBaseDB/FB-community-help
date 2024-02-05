@@ -36,4 +36,4 @@ Alternatively you can set up WSL and install Linux.
 
 ## Next step
 
-* [Install FeatureBase on Linux](/docs/community/com-install-linux)
+* [Install FeatureBase on Linux](/docs/community/com-getstart/com-install-linux)

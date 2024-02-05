@@ -31,7 +31,7 @@ FeatureBase features can be enabled or disabled from the `*/featurebase/opt` dir
 
 ## How do I setup and manage a FeatureBase `systemd` service?
 
-* [Setup FeatureBase `systemd` service](/docs/community/com-config/com-config-service-fb-setup)
+* [Setup FeatureBase `systemd` service](/docs/community/com-getstart/com-config-service-fb-setup)
 * [Manage FeatureBase services](/docs/community/com-config/com-config-service-fb-manage)
 
 ## How do I set up a FeatureBase cluster?

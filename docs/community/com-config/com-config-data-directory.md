@@ -75,7 +75,7 @@ These files are found in the `.pilosa` root.
 
 | Directory | Description | Additional information |
 |---|---|---|
-| `fb_views` | FeatureBase system table | [System tables](https://docs.featurebase.com/docs/sql-guidesystem-tables/system-tables-home) |
+| `fb_views` | FeatureBase system table | [System tables](https://docs.featurebase.com/docs/sql-guide/system-tables/system-tables-home) |
 | `<tablename>/_keys` |  A `_keys` directory is created for any index that uses a `string` key and contains a translation file for each partition the FeatureBase node is responsible for |  |
 | `<tablename>/dataframes`| `Dataframe` is an alternative data format used for general purpose calculation |  |
 | `<tablename>/fields` | Metadata and key translation (if present) for each field in the table |  |

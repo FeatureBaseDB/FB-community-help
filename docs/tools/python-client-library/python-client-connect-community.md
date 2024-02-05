@@ -12,8 +12,8 @@ Use the following client classes to connect to FeatureBase Community.
 
 ## Before you begin
 
-* [Install FeatureBase Python client library](/docs/tools/python-client-library/python-client-install)
-* [Start FeatureBase Community](/docs/community/com-startup-connect)
+* [Install FeatureBase Python client library](https://docs.featurebase.com/docs/tools/python-client-library/python-client-install)
+* [Start FeatureBase Community](/docs/community/com-getstart/com-startup-connect)
 
 ## Syntax
 
@@ -51,8 +51,4 @@ Key-values are defined in `featurebase/opt/featurebase.conf`
 
 ## Next step
 
-* [Learn how to query the connected database](/docs/tools/python-client-library/python-client-query)
-
-## Further information
-
-* [Learn how to connect to FeatureBase Cloud with the Python client](/docs/tools/python-client-library/python-client-connect-cloud)
+* [Learn how to query the connected database](https://docs.featurebase.com/docs/tools/python-client-library/python-client-query)

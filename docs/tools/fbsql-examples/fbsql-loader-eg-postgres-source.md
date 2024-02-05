@@ -15,9 +15,8 @@ nav_order: 3
 * [Learn about PostgreSQL](https://www.postgresql.org/docs/){:target="_blank"}
 * Create a PostgreSQL Database
 * [Obtain your PostgreSQL connection string](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING-URIS){:target="_blank"}
-* [Learn about TOML configuration settings](/docs/tools/fbsql/fbsql-loader-command)
-* [Create a FeatureBase Cloud database](/docs/cloud/cloud-databases/cloud-db-manage)
-* [Create target table](https://docs.featurebase.com/docs/sql-guideexamples/sql-eg-table/sql-eg-table-create-impala-postgres)
+* [Learn about TOML configuration settings](https://docs.featurebase.com/docs/tools/fbsql/fbsql-loader-command)
+* [Create target table](https://docs.featurebase.com/docs/sql-guide/examples/sql-eg-table/sql-eg-table-create-impala-postgres)
 
 ## Step 1 - Create data source
 
@@ -66,4 +65,4 @@ batch-size = 1
 
 ## Further information
 * [Learn about fbsql](/docs/tools/fbsql/fbsql-home)
-* [Learn how to install fbsql](/docs/tools/fbsql/fbsql-install)
+* [Learn how to install fbsql](https://docs.featurebase.com/docs/tools/fbsql/fbsql-install)
