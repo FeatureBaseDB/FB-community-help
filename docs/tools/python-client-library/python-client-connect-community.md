@@ -12,7 +12,7 @@ Use the following client classes to connect to FeatureBase Community.
 
 ## Before you begin
 
-* [Install FeatureBase Python client library](/docs/tools/python-client-library/python-client-install)
+* [Install FeatureBase Python client library](https://docs.featurebase.com/docs/tools/python-client-library/python-client-install)
 * [Start FeatureBase Community](/docs/community/com-getstart/com-startup-connect)
 
 ## Syntax

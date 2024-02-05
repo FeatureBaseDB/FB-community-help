@@ -17,7 +17,7 @@ has_toc: false
 
 ## How do I install FeatureBase Python client library?
 
-* [Learn how to install python client library](https://docs.featurebase.com/docs/tools/python-client-library/python-client-install){:target="_blank"}
+* [Learn how to install python client library](https://docs.featurebase.comhttps://docs.featurebase.com/docs/tools/python-client-library/python-client-install){:target="_blank"}
 
 ## How do I connect to my database?
 
