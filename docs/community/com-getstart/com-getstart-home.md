@@ -21,9 +21,9 @@ FeatureBase Community can be used under the [Apache version 2.0 license](https:/
 
 | Supported operating system | Additional information |
 |---|---|
-| Linux | [Install on Linux](/docs/community/com-install-linux) |
-| Apple Macintosh | [Install on Mac](/docs/community/com-install-mac) |
-| Windows Subsystem for Linux | [Install on Windows](/docs/community/com-install-windows) |
+| Linux | [Install on Linux](/docs/community/com-getstart/com-install-linux) |
+| Apple Macintosh | [Install on Mac](/docs/community/com-getstart/com-install-mac) |
+| Windows Subsystem for Linux | [Install on Windows](/docs/community/com-getstart/com-install-windows) |
 | All | [FeatureBase Docker setup](https://www.featurebase.com/blog/featurebase-with-a-simple-docker-deployment){:target="_blank"} |
 
 ## Troubleshooting
