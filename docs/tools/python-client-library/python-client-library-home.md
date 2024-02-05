@@ -13,7 +13,7 @@ has_toc: false
 
 ## Before you begin
 
-* [Learn how to install FeatureBase Community](index/#install-featurebase-community)
+* [Learn how to install FeatureBase Community](/docs/community/com-getstart/com-getstart-home)
 
 ## How do I install FeatureBase Python client library?
 
@@ -21,7 +21,7 @@ has_toc: false
 
 ## How do I connect to my database?
 
-  * [FeatureBase Community connection classes](/docs/tools/python-client-library/python-client-connect-community)
+* [FeatureBase Community connection classes](/docs/tools/python-client-library/python-client-connect-community)
 
 ## How do I query my database?
 
