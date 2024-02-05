@@ -51,8 +51,4 @@ Key-values are defined in `featurebase/opt/featurebase.conf`
 
 ## Next step
 
-* [Learn how to query the connected database](/docs/tools/python-client-library/python-client-query)
-
-## Further information
-
-* [Learn how to connect to FeatureBase Cloud with the Python client](/docs/tools/python-client-library/python-client-connect-cloud)
+* [Learn how to query the connected database](https://docs.featurebase.com/docs/tools/python-client-library/python-client-query)
