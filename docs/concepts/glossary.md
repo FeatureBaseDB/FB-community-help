@@ -32,9 +32,9 @@ nav_order: 1
 
 | Term | Context | Additional information |
 |---|---|---|
-| Batch (ingest) | Data import to FeatureBase | [BULK INSERT statement](https://docs.featurebase.com/docs/sql-guidestatements/statement-insert-bulk) |
+| Batch (ingest) | Data import to FeatureBase | [BULK INSERT statement](https://docs.featurebase.com/docs/sql-guide/statements//statement-insert-bulk) |
 | Bitmap<br/>Bitmap Index (BMI)<br/>Roaring B-Tree format (RBT) | FeatureBase database table rows | FeatureBase uses the [Roaring Bitmap](https://roaringbitmap.org/){:target="_blank"} format to store data. |
-| Bit Sliced Indexing (BSI) | Multi-bit integer and timestamp data types used for Range, Min, Max and Sum queries | * [INT data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-int)<br/>* [TIMESTAMP data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-timestamp)<br/>* [MIN query](/docs/pql-guide/pql-read-min)<br/>* [MAX query](/docs/pql-guide/pql-read-max)<br/>* [SUM query](/docs/pql-guide/pql-read-sum) |
+| Bit Sliced Indexing (BSI) | Multi-bit integer and timestamp data types used for Range, Min, Max and Sum queries | * [INT data type](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-int)<br/>* [TIMESTAMP data type](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-timestamp)<br/>* [MIN query](/docs/pql-guide/pql-read-min)<br/>* [MAX query](/docs/pql-guide/pql-read-max)<br/>* [SUM query](/docs/pql-guide/pql-read-sum) |
 
 ## C
 
@@ -53,7 +53,7 @@ nav_order: 1
 |---|---|---|
 | Database | FeatureBase database | Dedicated resources which contain tables and data. [Manage Cloud databases](/docs/cloud/cloud-databases/cloud-db-manage) |
 | Data source | Source of data imported to FeatureBase | FeatureBase imports data from external data sources via HTTPS, Kafka, SQL or CSV ingest processing |
-| Data types | Table columns | [Data types and constraints](https://docs.featurebase.com/docs/sql-guidedata-types/data-types-home) |
+| Data types | Table columns | [Data types and constraints](https://docs.featurebase.com/docs/sql-guide/data/-types/data-types-home) |
 | DELETE | PQL query | [PQL DELETE write query](/docs/pql-guide/pql-write-delete) |
 | DIFFERENCE | PQL query | [PQL DIFFERENCE read query](/docs/pql-guide/pql-read-difference) |
 | DISTINCT | PQL query | [PQL DISTINCT read query](/docs/pql-guide/pql-read-distinct) |
@@ -68,7 +68,7 @@ nav_order: 1
 
 | Term | Context | Additional information |
 |---|---|---|
-| Field | Table rows | Field data types to group rows into different categories:<br/>* [`bool`](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-bool)<br/>* [`int`](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-int)<br/>* [`set`](/docs/pql-guide/pql-write-set)<br/>* [`time`]()<br/>* [`timestamp`](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-timestamp)<br/>* [Mutex]()|
+| Field | Table rows | Field data types to group rows into different categories:<br/>* [`bool`](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-bool)<br/>* [`int`](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-int)<br/>* [`set`](/docs/pql-guide/pql-write-set)<br/>* [`time`]()<br/>* [`timestamp`](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-timestamp)<br/>* [Mutex]()|
 | Fields, ranked | Table rows | Rows kept in sorted order within the field. |
 | Fragment | FeatureBase Community Row fields and database shards | A fragment typically corresponds to a file on disk which represents an intersection of:<br/>* field and shard, or<br/>* field, shard and `time` data type `time quantum` constraint |
 | Freshness | Data import/ingest | How much time elapses from when a data point is "sensed" by the system, until that data point will affect the results of a query. |
@@ -118,10 +118,10 @@ nav_order: 1
 | Term | Context | Additional information |
 |---|---|---|
 | MAX | PQL Read query | [PQL MAX Read query](/docs/pql-guide/pql-read-max) |
-| MAX | SQL `int` constraint | [INT data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-int) |
+| MAX | SQL `int` constraint | [INT data type](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-int) |
 | MAXSHARD<br/>`cluster.maxshard` parameter | FeatureBase Community Cluster flag | Zero-indexed shard allocation for current records, where `maxshard = 0` indicates 1 shard is allocated. |
 | MIN | PQL Read query | [PQL MIN Read query](/docs/pql-guide/pql-read-min) |
-| Min | SQL `int` constraint | [INT data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-int) |
+| Min | SQL `int` constraint | [INT data type](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-int) |
 | `./molecula-consumer-[csv | sql | kafka]` | Community ingest | [Manage community ingest](/docs/community/com-ingest/com-ingest-manage) |
 | Mutex | String Data type | A FeatureBase field type similar to the Set type, in which only a single value can be set at any time. Conceptually similar to an enum type, but implemented on top of Set fields, with a performance cost from the single-value constraint. Not to be confused with the mutex synchronization primitive. |
 
@@ -186,9 +186,9 @@ nav_order: 1
 | Term | Context | Additional information |
 |---|---|---|
 | Throughput | Data import/ingestion | Quantity of data that can be imported/ingested in a given time. May involve trade-off between Latency and Freshness |
-| Time Quantum | SQL IDSET and STRINGSET constraint | [IDSET data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-idset)  <br/>[STRINGSET data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-stringset) |
-| Timestamp | Data type | [Timestamp data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-timestamp) |
-| TTL (Time To Live) |  IDSET and STRINGSET constraint | [IDSET data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-idset)  <br/>[STRINGSET data type](https://docs.featurebase.com/docs/sql-guidedata-types/data-type-stringset) |
+| Time Quantum | SQL IDSET and STRINGSET constraint | [IDSET data type](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-idset)  <br/>[STRINGSET data type](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-stringset) |
+| Timestamp | Data type | [Timestamp data type](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-timestamp) |
+| TTL (Time To Live) |  IDSET and STRINGSET constraint | [IDSET data type](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-idset)  <br/>[STRINGSET data type](https://docs.featurebase.com/docs/sql-guide/data/-types/data-type-stringset) |
 | TOML | FeatureBase Community configuration files | [Tom's Obvious Minimal Language (TOML)](https://github.com/toml-lang/toml) |
 | TopK | PQL query | [PQL TOPK read query](/docs/pql-guide/pql-read-topk) |
 | TopN | PQL query | [PQL TOPN read query](/docs/pql-guide/pql-read-topn) |

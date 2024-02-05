@@ -57,7 +57,7 @@ Bitmaps have two main issues:
 
 FeatureBase overcomes low-cardinality issues with four unique data types suitable for `integer` or `string` values.
 
-* [Learn about `SET` and `SETQ` data types](https://docs.featurebase.com/docs/sql-guidedata-types/data-types-home#low-cardinality-data-types)
+* [Learn about `SET` and `SETQ` data types](https://docs.featurebase.com/docs/sql-guide/data/-types/data-types-home#low-cardinality-data-types)
 
 ### Data storage overheads
 

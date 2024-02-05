@@ -14,8 +14,7 @@ nav_order: 1
 * [Learn about Apache Impala](https://impala.apache.org/){:target="_blank"}
 * Create an Impala Database
 * [Obtain your Impala connection string](https://impala.apache.org/docs/build/html/topics/impala_client.html){:target="_blank"}
-* [Create a FeatureBase Cloud database](/docs/cloud/cloud-databases/cloud-db-manage)
-* [Create target table](https://docs.featurebase.com/docs/sql-guideexamples/sql-eg-table/sql-eg-table-create-impala-postgres)
+* [Create target table](https://docs.featurebase.com/docs/sql-guide/examples/sql-eg-table/sql-eg-table-create-impala-postgres)
 
 ## Step 1 - Create data source
 
@@ -57,10 +56,10 @@ batch-size = 1
 
 ## Next step
 
-* [Import data from your data source](/docs/tools/fbsql-examples/fbsql-loader-eg-ingest )
+* [Import data from your data source](https://docs.featurebase.com/docs/tools/fbsql-examples/fbsql-loader-eg-ingest )
 
 ## Further information
 
 * [Learn about fbsql](/docs/tools/fbsql/fbsql-home)
-* [Learn how to install fbsql](/docs/tools/fbsql/fbsql-install)
-* [Learn about fbsql TOML configuration](/docs/tools/fbsql/fbsql-loader-toml-config)
+* [Learn how to install fbsql](https://docs.featurebase.com/docs/tools/fbsql/fbsql-install)
+* [Learn about fbsql TOML configuration](https://docs.featurebase.com/docs/tools/fbsql/fbsql-loader-toml-config)

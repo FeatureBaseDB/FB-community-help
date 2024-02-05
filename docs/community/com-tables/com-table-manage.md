@@ -15,14 +15,14 @@ Tables can be created:
 ## Before you begin
 
 {% include /com-install/com-install-before-begin.md %}
-* [SQL statements](https://docs.featurebase.com/docs/sql-guidestatements/statements-home)
+* [SQL statements](https://docs.featurebase.com/docs/sql-guide/statements//statements-home)
 
 ## Create tables by running SQL queries
 
 FeatureBase Community supports the following SQL statements to create and alter tables:
 
-* [Create table](https://docs.featurebase.com/docs/sql-guidestatements/statement-table-create)
-* [Alter table](https://docs.featurebase.com/docs/sql-guidestatements/statement-table-alter)
+* [Create table](https://docs.featurebase.com/docs/sql-guide/statements//statement-table-create)
+* [Alter table](https://docs.featurebase.com/docs/sql-guide/statements//statement-table-alter)
 
 You can run these statements using any of the following methods:
 

@@ -17,7 +17,7 @@ nav_order: 3
 * [Obtain your PostgreSQL connection string](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING-URIS){:target="_blank"}
 * [Learn about TOML configuration settings](/docs/tools/fbsql/fbsql-loader-command)
 * [Create a FeatureBase Cloud database](/docs/cloud/cloud-databases/cloud-db-manage)
-* [Create target table](https://docs.featurebase.com/docs/sql-guideexamples/sql-eg-table/sql-eg-table-create-impala-postgres)
+* [Create target table](https://docs.featurebase.com/docs/sql-guide/examples/sql-eg-table/sql-eg-table-create-impala-postgres)
 
 ## Step 1 - Create data source
 
