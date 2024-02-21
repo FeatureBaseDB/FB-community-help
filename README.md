@@ -1,7 +1,7 @@
 # FB-community-help
 FeatureBase Community is a bitmap index database originally called Pilosa and Molecula.
 
-This help was extracted from `featurebase-docs` after FeatureBase Community was archived.
+* [FeatureBase application repository](https://github.com/FeatureBaseDB/featurebase)
 
-The intention is to set this up as a standalone GitHub pages site.
+This help was extracted from `featurebase-docs` after FeatureBase Community was archived.
 
